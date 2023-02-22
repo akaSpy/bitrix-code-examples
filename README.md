@@ -121,7 +121,7 @@ class AuthComponent extends \CBitrixComponent implements Controllerable
 
 declare(strict_types=1);
 
-namespace App\Features\Auth\Entities\User;
+namespace App\Features\Auth\Entities;
 
 class User
 {
@@ -186,7 +186,7 @@ class User
 
 declare(strict_types=1);
 
-namespace App\Features\Auth\Repositories\UserRepository;
+namespace App\Features\Auth\Repositories;
 
 class UserRepository
 {
